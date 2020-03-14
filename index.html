@@ -12,14 +12,23 @@
       right: 0;
       bottom: 30%;
       width: 13%;
-      animation-name: logo;
-      animation-duration: 8s;
+    }
+    .center-text {
+      position: absolute;
+      margin: auto;
+      text-align: center;
+      width: 100%;
+      top: 50%;
+      font-size: 35px;
+      font-family: "Times New Roman";
     }
     @keyframes logo {
       from {opacity: 0.1;}
       to {opacity: 1;}
     }
     .main-div {
+      animation-name: logo;
+      animation-duration: 8s;
       height: 95%;
       width: 100%;
     }
@@ -35,6 +44,7 @@
 <body>
   <div class="main-div">
     <img src="core-computing-logo.png" alt="" class="center">
+    <p class="center-text">Design. Develop. Maintain.</h3>
   </div>
   <footer class="footer">
     <p>@2020 Core Computing</p>
